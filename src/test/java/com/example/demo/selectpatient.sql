@@ -1,0 +1,1 @@
+select * from patient where code='asdf'
