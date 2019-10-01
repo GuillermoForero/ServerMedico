@@ -108,7 +108,7 @@ public class TestPatient {
     public void testUpdate() {
     	PatientDto patientDto = new PatientDto();
     	patientDto.setNameDto("Guillermo");
-    	patientDto.setLastnameDto("Forero");
+    	patientDto.setLastnameDto("Forero");//perro
     	Date fecha2= new Date(1569560400000l);
     	patientDto.setBirthdayDto(fecha2);
     	patientDto.setModeratingFeeValueDto(45d);
